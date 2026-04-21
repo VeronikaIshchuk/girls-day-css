@@ -1,0 +1,72 @@
+/* Hintergrund (soft pink) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:#fff3f8;
+}
+
+/* Header (harmonisches Dunkelblau) */
+header {
+    background:#ffdff4;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+/* Hauptbereich */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Karten */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Überschriften im Inhalt */
+h2 {
+    color: #092043;
+}
+
+/* Listen */
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* Code-Blöcke */
+pre {
+    background: #f4f4f4;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+/* Button (modern und passend) */
+button {
+    background: #092043;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effekt */
+button:hover {
+    background: #1a4a8a;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
