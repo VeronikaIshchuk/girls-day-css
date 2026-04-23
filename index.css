@@ -1,11 +1,11 @@
-/* Hintergrund (soft pink) */
+/* Hintergrund*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background:#fff3f8;
 }
 
-/* Header (harmonisches Dunkelblau) */
+/* Header */
 header {
     background:#ffdff4;
     text-align: center;
@@ -47,25 +47,8 @@ pre {
     overflow-x: auto;
 }
 
-/* Button (modern und passend) */
-button {
-    background: #092043;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* Hover Effekt */
-button:hover {
-    background: #1a4a8a;
-    transform: scale(1.05);
-}
-
 /* Footer */
-footer {
+#footer {
     text-align: center;
     padding: 20px;
     color: #555;

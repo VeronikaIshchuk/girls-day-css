@@ -33,20 +33,21 @@
     <section class="card">
         <h2>Selektoren</h2>
         <ul>
-            <li><b>h1</b> – Überschriften</li>
-            <li><b>p</b> – Text</li>
-            <li><b>.klasse</b> – mehrere Elemente</li>
-            <li><b>#id</b> – ein einzelnes Element</li>
+            <li><b>p</b> – Element-Selektor</li>
+            <li><b>.klasse</b> – klassen-Selektor</li>
+            <li><b>#id</b> – ID-Selektor</li>
         </ul>
     </section>
 
     <section class="card">
         <h2>Eigenschaften</h2>
         <ul>
-            <li>color – Textfarbe</li>
-            <li>background-color – Hintergrund</li>
-            <li>font-size – Schriftgröße</li>
-            <li>margin / padding – Abstände</li>
+            <li>color: red; – Textfarbe</li>
+            <li>background-color: yellow; – Hintergrund</li>
+            <li>font-size: 20px; – Schriftgröße</li>
+            <li>margin: 20px; – Abstnd außen</li>
+            <li>padding: 20px; – Abstnd innen</li>
+            <li>border: 2px solid black; - Rahmen</li>
         </ul>
     </section>
 
@@ -69,6 +70,10 @@ h1 {
 
     <section class="card">
         <h2>CSS Code</h2>
+        <h3>CSS und HTML zusammenbinden</h3>
+        <pre>
+< link rel="stylesheet" href="style.css">
+            </pre>
 
         <h3>Hintergrund ändern</h3>
         <pre>
@@ -97,12 +102,27 @@ p {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 }
             </pre>
+        <h3>Mehrere Eigenschaften zusammen</h3>
+        <pre>
+p {
+  color: blue;
+  font-size: 18px;
+  background-color: lightgray;
+}
+            </pre>
 
+    </section>
+    <section class="card">
+        <h2>Hilfreiche links</h2>
+        <ul>
+            <li><a href="https://www.w3schools.com">W3schools - tutorials</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/">MDN - tutorials/documentation</a></li>
+        </ul>
     </section>
 
 </main>
 
-<footer>
+<footer id="footer">
     <p>Girls & Boys Day Projekt</p>
 </footer>
 
